@@ -1,16 +1,193 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="es">
 
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Document</title>
-            </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcos Aquino — Desarrolladora Frontend</title>
+  <meta name="description"
+    content="Portafolio de Marcos Aquino, desarrolladora frontend. Habilidades, contacto y una bitácora personal sobre observación astronómica.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-            <body>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="nav-brand" href="#top">Marcos Aquino</a>
+
+      <input type="checkbox" id="navToggle" class="nav-toggle-checkbox">
+      <label for="navToggle" class="nav-toggle" aria-label="Abrir menú de navegación">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#bitacora">Bitácora</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a class="nav-github" href="https://github.com/Marcos028" target="_blank" rel="noopener noreferrer">GitHub
+            <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="hero" id="top">
+      <div class="hero-stars" aria-hidden="true">
+        <span class="star star--a"></span>
+        <span class="star star--b"></span>
+        <span class="star star--c"></span>
+        <span class="star star--d"></span>
+        <span class="star star--e"></span>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">Coordenadas: La Plata, Argentina</p>
+        <h1 class="hero-name">Marcos <em>Aquino</em></h1>
+        <p class="hero-role">Desarrolladora Frontend</p>
+        <p class="hero-text">
+          Construyo interfaces web cuidando el detalle: código semántico, accesible
+          y con una estética propia. Me entusiasma la intersección entre diseño y
+          lógica — el mismo lugar, creo, donde vive la astronomía.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contacto">Hablemos</a>
+          <a class="btn btn-ghost" href="https://github.com/Marcos028" target="_blank" rel="noopener noreferrer">Ver
+            GitHub</a>
+        </div>
+      </div>
 
 
-                
-            </body>
+    </div>
+  </header>
 
-    </html>
+  <main>
+
+    <section id="habilidades" class="skills-section" aria-labelledby="skills-title">
+      <div class="section-head">
+        <p class="eyebrow">Catálogo estelar</p>
+        <h2 id="skills-title">Habilidades</h2>
+        <p class="section-lead">
+          Cada punto es una herramienta que uso a diario; las líneas, cómo se
+          conectan entre sí en un mismo proyecto.
+        </p>
+      </div>
+
+      <div class="constellation" id="constellation">
+        <svg class="constellation-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <line class="const-line l1" x1="8" y1="76" x2="20" y2="28" />
+          <line class="const-line l2" x1="20" y1="28" x2="34" y2="64" />
+          <line class="const-line l3" x1="34" y1="64" x2="48" y2="20" />
+          <line class="const-line l4" x1="48" y1="20" x2="60" y2="60" />
+          <line class="const-line l5" x1="60" y1="60" x2="74" y2="24" />
+          <line class="const-line l6" x1="74" y1="24" x2="86" y2="68" />
+          <line class="const-line l7" x1="86" y1="68" x2="94" y2="32" />
+          <line class="const-line l8" x1="34" y1="64" x2="60" y2="60" />
+          <line class="const-line l9" x1="48" y1="20" x2="74" y2="24" />
+        </svg>
+
+        <ul class="constellation-nodes">
+          <li class="node" style="left:8%;top:76%;"><span class="node-dot"></span><span class="node-label">HTML5</span>
+          </li>
+          <li class="node" style="left:20%;top:28%;"><span class="node-dot"></span><span class="node-label">CSS3</span>
+          </li>
+          <li class="node" style="left:34%;top:64%;"><span class="node-dot"></span><span
+              class="node-label">JavaScript</span></li>
+          <li class="node" style="left:48%;top:20%;"><span class="node-dot"></span><span class="node-label">React</span>
+          </li>
+          <li class="node" style="left:60%;top:60%;"><span class="node-dot"></span><span class="node-label">Git &amp;
+              GitHub</span></li>
+          <li class="node" style="left:74%;top:24%;"><span class="node-dot"></span><span class="node-label">Figma</span>
+          </li>
+          <li class="node" style="left:86%;top:68%;"><span class="node-dot"></span><span
+              class="node-label">Accesibilidad</span></li>
+          <li class="node" style="left:94%;top:32%;"><span class="node-dot"></span><span class="node-label">Node.js
+              (básico)</span></li>
+        </ul>
+      </div>
+
+      <ul class="skills-fallback">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Git &amp; GitHub</li>
+        <li>Figma</li>
+        <li>Accesibilidad</li>
+        <li>Node.js (básico)</li>
+      </ul>
+    </section>
+
+    <section id="bitacora" class="personal-section" aria-labelledby="bitacora-title">
+      <figure class="bitacora-photo">
+        <img src="https://placehold.co/640x480/0B1026/8C8CE6?font=raleway&text=Cielo+Nocturno"
+          alt="Cielo estrellado fotografiado durante una salida de observación astronómica" width="640" height="480"
+          loading="lazy">
+      </figure>
+
+      <div class="bitacora-text">
+        <p class="eyebrow">Bitácora personal</p>
+        <h2 id="bitacora-title">Lo que miro cuando no miro código</h2>
+        <p>
+          Los fines de semana con cielo despejado armo el telescopio en el patio.
+          Empecé buscando la Luna y terminé anotando efemérides en una libreta como
+          quien lleva un changelog. Hay algo familiar en eso: coordenadas, versiones,
+          objetos que aparecen y desaparecen según el momento del año.
+        </p>
+        <p>
+          Todavía no tengo una foto propia decente del cielo — mi cámara no le gana
+          a la contaminación lumínica de la ciudad — así que por ahora esta sección
+          lleva una imagen de referencia hasta que consiga una salida a un cielo
+          más oscuro.
+        </p>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact-section" aria-labelledby="contact-title">
+      <div class="contact-info">
+        <p class="eyebrow">Enviar señal</p>
+        <h2 id="contact-title">Contacto</h2>
+        <p>
+          Si tenés un proyecto, una propuesta o simplemente una pregunta técnica,
+          este es el lugar. Respondo en general dentro de uno o dos días.
+        </p>
+        <ul class="contact-links">
+          <li><a href="mailto:sofia.martin.dev@gmail.com">marcos.aquino.dev@gmail.com</a></li>
+          <li><a href="https://github.com/Marcos028" target="_blank" rel="noopener noreferrer">github.com/Marcos028</a>
+          </li>
+          <li><a href="https://linkedin.com/in/sofiamartindev" target="_blank"
+              rel="noopener noreferrer">linkedin.com/in/MarcosAquinodev</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="mailto:sofia.martin.dev@gmail.com" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="Nombre" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="Mensaje" rows="5" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+        <p class="form-hint">Se va a abrir tu cliente de correo con estos datos cargados.</p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Marcos Aquino. Hecho con HTML y CSS.</p>
+    <a href="https://github.com/Marcos028" target="_blank" rel="noopener noreferrer">github.com/Marcos028</a>
+  </footer>
+
+</body>
+
+</html>
