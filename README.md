@@ -1,9 +1,17 @@
-# Portafolio personal — PFO1
+# PFO Nº1 - Desarrollo de Sistemas Web - Frontend
+
+Este repositorio contiene la Práctica Formativa Obligatoria N.º 1 (PFO1) de la materia Desarrollo de Sistemas Web – Frontend. Soy Marcos Aquino, desarrollador frontend, esta landing funciona como mi carta de presentación: un espacio pensado para mostrar quién soy, qué habilidades manejo y cómo contactarme.
 
 ## Descripción
 
 Landing de portafolio personal desarrollada **solo con HTML semántico y CSS
-propio** (sin frameworks ni JavaScript), para la consigna PFO1. 
+ para la consigna PFO1. 
+
+
+
+URL del proyecto: https://pf-1-lading-personal.vercel.app/
+
+
 
 ## Decisiones tomadas
 
@@ -63,15 +71,7 @@ propio** (sin frameworks ni JavaScript), para la consigna PFO1.
   información real.
 
 
+## Experiencia previa con IA
 
-## Cómo publicar en Vercel
+Hasta ahora solo había usado inteligencia artificial para corregir texto (ortografía, redacción) y para consultar o corregir fragmentos de código puntuales. Esta es la primera vez que la uso para generar un proyecto completo desde cero (código, diseño y contenido) y después ir revisando para  modificar lo generado según mi propio criterio.
 
-1. Subir esta carpeta a un repositorio de GitHub (puede ser público o privado).
-2. Entrar a [vercel.com](https://vercel.com) e iniciar sesión con tu cuenta de
-   GitHub.
-3. Click en **Add New… → Project**, elegir el repositorio recién creado.
-4. Como es HTML/CSS/JS plano, en **Framework Preset** dejar `Other` (no hace
-   falta build command ni output directory).
-5. Click en **Deploy** y esperar a que termine.
-6. Copiar la URL que te da Vercel (`https://tu-proyecto.vercel.app`) y
-   pegarla en la sección "URL de despliegue" de este README.
